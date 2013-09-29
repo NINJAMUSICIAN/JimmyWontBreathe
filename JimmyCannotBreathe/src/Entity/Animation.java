@@ -23,6 +23,9 @@ public class Animation {
 	playedOnce = false;
 	}
 	
+	//helllo github
+	
+	
 	public void setDelay(long d){delay = d;}
 	public void setFrame(int i){currentFrame = i;}
 	
