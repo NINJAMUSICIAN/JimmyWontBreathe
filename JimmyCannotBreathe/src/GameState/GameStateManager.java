@@ -7,6 +7,7 @@ import GameState.Cutscenes.Cut2;
 import GameState.Levels.Level10State;
 import GameState.Levels.Level11State;
 import GameState.Levels.Level12State;
+import GameState.Levels.Level13State;
 import GameState.Levels.Level1State;
 import GameState.Levels.Level2State;
 import GameState.Levels.Level2Trap;
@@ -39,11 +40,12 @@ public class GameStateManager {
 	public static final int LEVEL10STATE = 13;
 	public static final int LEVEL11STATE = 14;
 	public static final int LEVEL12STATE = 15;
+	public static final int LEVEL13STATE = 16;
 	
 	public GameStateManager(){
 		gameStates = new ArrayList<GameState>();
 		
-		currentState = LEVEL12STATE;
+		currentState = LEVEL13STATE;
 		gameStates.add(new MainMenu(this));
 		gameStates.add(new Cut1(this));
 		gameStates.add(new Level1State(this));
@@ -60,6 +62,7 @@ public class GameStateManager {
 		gameStates.add(new Level10State(this));
 		gameStates.add(new Level11State(this));
 		gameStates.add(new Level12State(this));
+		gameStates.add(new Level13State(this));
 		
 	}
 	

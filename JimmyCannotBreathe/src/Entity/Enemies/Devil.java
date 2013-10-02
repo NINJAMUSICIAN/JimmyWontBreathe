@@ -44,7 +44,7 @@ public class Devil extends Enemy {
 		cwidth = 30;
 		cheight = 60;
 
-		health = maxHealth = 1;
+		health = maxHealth = 6;
 		damage = 1;
 
 		deathScore = 100000;
