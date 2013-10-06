@@ -66,7 +66,7 @@ public class Level12State extends GameState {
 		
 		if(devil.isDead()){
 			
-			gsm.setState(GameStateManager.LEVEL11STATE);
+			gsm.setState(GameStateManager.LEVEL13STATE);
 			
 		}
 		
